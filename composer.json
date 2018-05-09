@@ -1,5 +1,7 @@
 {
     "name": "levaral/ubl_invoice",
+    "version" : "1.0.0",
+    "minimum-stability": "dev",
     "description": "A PHP wrapper for UBL invoices",
     "keywords": [
         "ubl", "invoice", "ubl invoice", "levaral", "levaral invoice", "electronic invoice", "xml", "xml invoice"
