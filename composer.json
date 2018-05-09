@@ -1,0 +1,28 @@
+{
+    "name": "levaral/ubl_invoice",
+    "description": "A PHP wrapper for UBL invoices",
+    "keywords": [
+        "ubl", "invoice", "ubl invoice", "levaral", "levaral invoice", "electronic invoice", "xml", "xml invoice"
+    ],
+    "homepage": "https://github.com/dhavalev/UBL_invoice",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levaral",
+            "email": "hello@levaral.com",
+            "homepage": "http://www.levaral.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "sabre/xml": "^1.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Levaral\\UBL\\Invoice\\": ["src/", "src/classes"]
+        }
+    }
+
+}
